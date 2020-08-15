@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="rootpane" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.AddItemFormController">
+   <children>
+      <JFXTextField fx:id="taskfield" layoutX="106.0" layoutY="148.0" prefHeight="25.0" prefWidth="423.0" promptText="Task" unFocusColor="#d01c1c" />
+      <JFXTextField fx:id="descriptionfield" layoutX="106.0" layoutY="233.0" prefHeight="25.0" prefWidth="423.0" promptText="Description" unFocusColor="#c31313" />
+      <JFXButton fx:id="savetaskbutton" layoutX="254.0" layoutY="309.0" prefHeight="25.0" prefWidth="185.0" style="-fx-background-color: black;" text="Save Task" textFill="#fcf2f2">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <AnchorPane fx:id="additemformtitle" layoutX="-2.0" layoutY="-3.0" prefHeight="80.0" prefWidth="707.0" style="-fx-background-color: red;" />
+      <Label alignment="CENTER" layoutX="250.0" layoutY="14.0" prefHeight="53.0" prefWidth="204.0" style="-fx-background-color: blue;" text="2DO">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="successtasktext" layoutX="429.0" layoutY="89.0" prefHeight="40.0" prefWidth="266.0" text="Task added successfully! Add another one" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="todoshowbutton" layoutX="496.0" layoutY="354.0" prefHeight="25.0" prefWidth="147.0" text="My 2do;s:" visible="false">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

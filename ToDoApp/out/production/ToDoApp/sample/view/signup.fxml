@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.SignUpController">
+   <children>
+      <AnchorPane prefHeight="49.0" prefWidth="700.0" style="-fx-background-color: red;">
+         <children>
+            <Label alignment="CENTER" layoutX="290.0" layoutY="16.0" prefHeight="17.0" prefWidth="116.0" style="-fx-background-color: blue;" text="2DO">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="69.0" prefHeight="29.0" prefWidth="700.0" style="-fx-background-color: maroon;">
+         <children>
+            <Label alignment="CENTER" layoutX="313.0" layoutY="6.0" prefHeight="17.0" prefWidth="69.0" text="Sign Up" textFill="#e4b4b4" />
+         </children>
+      </AnchorPane>
+      <JFXTextField fx:id="signupusername" layoutX="97.0" layoutY="124.0" prefHeight="25.0" prefWidth="457.0" promptText="User Name" />
+      <JFXTextField fx:id="signupfirstname" layoutX="97.0" layoutY="159.0" prefHeight="25.0" prefWidth="457.0" promptText="First Name" />
+      <JFXTextField fx:id="signuplastname" layoutX="97.0" layoutY="188.0" prefHeight="25.0" prefWidth="457.0" promptText="Last Name" />
+      <JFXPasswordField fx:id="signuppassword" layoutX="97.0" layoutY="234.0" prefHeight="25.0" prefWidth="457.0" promptText="Password" />
+      <JFXCheckBox fx:id="signupcheckboxmale" layoutX="207.0" layoutY="281.0" selected="true" text="Male">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </JFXCheckBox>
+      <JFXCheckBox fx:id="signupcheckboxfemale" layoutX="279.0" layoutY="281.0" text="Female" />
+      <JFXTextField fx:id="signuplocation" layoutX="97.0" layoutY="316.0" prefHeight="25.0" prefWidth="457.0" promptText="Location" />
+      <JFXButton fx:id="signupbutton" layoutX="264.0" layoutY="355.0" prefHeight="25.0" prefWidth="161.0" style="-fx-background-color: black;" text="Sign Up">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+   <cursor>
+      <Cursor fx:constant="SW_RESIZE" />
+   </cursor>
+</AnchorPane>

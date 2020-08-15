@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootanchorpane" prefHeight="90.0" prefWidth="300.0" style="-fx-background-color: red;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <ImageView fx:id="iconimage" fitHeight="43.0" fitWidth="58.0" layoutX="7.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/additem.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="celltasklabel" layoutX="68.0" layoutY="16.0" prefHeight="17.0" prefWidth="206.0" text="Task Label" textFill="#f5eeee" />
+      <Label fx:id="celltaskdescription" layoutX="68.0" layoutY="45.0" prefHeight="27.0" prefWidth="206.0" text="Task Description" textFill="#fcf0f0" />
+      <Label fx:id="celldatecreated" layoutX="319.0" layoutY="59.0" prefHeight="27.0" prefWidth="171.0" text="Date Created" textFill="#2fe80a" />
+      <ImageView fx:id="celldeletebutton" fitHeight="27.0" fitWidth="50.0" layoutX="493.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/additem.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cellupdatebutton" fitHeight="36.0" fitWidth="37.0" layoutX="444.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/additem.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

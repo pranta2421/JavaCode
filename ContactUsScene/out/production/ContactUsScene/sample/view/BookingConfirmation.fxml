@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.BookingConfirmationController">
+   <children>
+      <Label fx:id="HiName" layoutX="202.0" layoutY="115.0" prefHeight="17.0" prefWidth="313.0" style="-fx-background-color: red;" text="Hi" textFill="#591eb9">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="202.0" layoutY="168.0" prefHeight="17.0" prefWidth="313.0" style="-fx-background-color: White;" text="Your Metting Has Been Booked " textFill="#c96f24">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="202.0" layoutY="227.0" prefHeight="17.0" prefWidth="313.0" style="-fx-background-color: green;" text="A Confirmation Mail Has Been Sent To" textFill="#c31919">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="MailHyperlink" layoutX="200.0" layoutY="283.0" prefHeight="35.0" prefWidth="313.0" style="-fx-background-color: white;">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>
